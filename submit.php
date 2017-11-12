@@ -4,7 +4,7 @@
 		$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 		
 		if(isset($_POST['name']) && isset($_POST['score'])) {
-			$conn->query("INSERT INTO Plays (Name, Score) VALUES ('".$_POST['name']."', ".$_POST['score'].")");
+			$conn->query("INSERT INTO Plays (Name, Score) VALUES (\"".$_POST['name']."\", ".$_POST['score'].")");
 		}
 		
 		foreach($conn->query("SELECT * FROM Plays") as $row) {
