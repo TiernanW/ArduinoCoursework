@@ -11,6 +11,8 @@
 		die(print_r($e));
 	}
 	
-	echo $_POST['name']
-	echo $_POST['score']
+	if(isset($_POST['name']) && isset($_POST['score'])) {
+		echo $_POST['name'];
+		echo $_POST['score'];
+	}
 ?>
