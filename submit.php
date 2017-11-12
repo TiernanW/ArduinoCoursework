@@ -12,7 +12,7 @@ if($result = mysqli_query($con, $sql)) {
 	} else {
 		echo "0 results";
 	}
-} */
+} 
 
 // PHP Data Objects(PDO) Sample Code:
 try {
@@ -22,6 +22,8 @@ try {
 catch (PDOException $e) {
     print("Error connecting to SQL Server.");
     die(print_r($e));
-}
+} */
+
+echo "hi";
 
 ?>
