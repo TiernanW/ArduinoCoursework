@@ -10,4 +10,7 @@
 		print("Error connecting to SQL Server.");
 		die(print_r($e));
 	}
+	
+	echo $_POST['name']
+	echo $_POST['score']
 ?>
