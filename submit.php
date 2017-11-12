@@ -5,6 +5,11 @@
 <head>
 	<title>Run n Jump - Leaderboard</title>
 	<style>
+		body {
+			text-align: center;
+			font-family: Calibri, Helvetica, sans-serif;
+			font-size: 14px;
+		}
 		.wrapper {
 			width: 960px;
 			margin: 0 auto;
