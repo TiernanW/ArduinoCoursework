@@ -5,7 +5,7 @@
 		
 		// For inserting scores via post
 		if(isset($_POST['name']) && isset($_POST['score'])) {
-			$conn->query("INSERT INTO Plays (Username, Score) VALUES (\"Tiernanwe2\", 22)";
+			$conn->query("INSERT INTO Plays (Username, Score) VALUES (\"Tiernanwe2\", 22)");
 		}
 		
 		// Displays all scores
