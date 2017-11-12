@@ -8,7 +8,7 @@
 		body {
 			text-align: center;
 			font-family: Calibri, Helvetica, sans-serif;
-			font-size: 14px;
+			font-size: 16px;
 		}
 		.wrapper {
 			width: 960px;
@@ -39,7 +39,7 @@
 				}
 				
 				// Displays all scores
-				foreach($conn->query("SELECT TOP 20 * FROM Plays") as $row) {
+				foreach($conn->query("SELECT TOP 20 * FROM Plays ORDER BY Score ASC") as $row) {
 					echo "<div class=\"profile\"><strong>" . $row[1] . "</strong> - " . $row[2] . "</div>";
 				}
 			}
