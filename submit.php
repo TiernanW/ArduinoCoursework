@@ -4,7 +4,7 @@
 
 <head>
 	<title>Run n Jump - Leaderboard</title>
-	<style type="text/css">
+	<style>
 		.wrapper {
 			width: 960px;
 			margin: 0 auto;
